@@ -1,0 +1,185 @@
+main {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.cover-image-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image:url('../image/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+/* navigation style */
+.header {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    position: fixed;
+    background-color: #212222;
+    align-items: center;
+    z-index: 100;
+}
+
+.header h1 {
+    margin-left: 70px;
+    font-size: 28px;
+    color:#FFFFFF;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.navigation {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 130px;
+}
+
+.navigation li {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+/* back-title-wrapper style */
+.back-title-wrapper {
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+/* main-project-wrapper */
+.main-project-wrapper {
+    max-width: 1280px;
+    display: flex;
+}
+
+.child-project-wrapper {
+    flex: 1 1 0px;
+}
+
+.child-project-wrapper:first-child {
+    padding: 50px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.child-project-wrapper h3 {
+    font-size: 50px;
+    max-width: 500px;
+    line-height: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.child-project-wrapper p {
+    font-size: 16px;
+    max-width: 360px;
+    line-height: 25px;
+}
+.child-project-wrapper .view-button {
+    width: fit-content;
+    background-color:#325DFF;
+    border-radius: 30px;
+    padding: 30px 95px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* dolor-sit */
+.dolor-sit-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.dolor-sit-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.dolor-sit {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+/* main-manu-wrapper */
+.main-manu-wrapper {
+    max-width: 1280px;
+    background-color: #FAFAFA;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.main-wrapper-child{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.manu-child {
+    background-color: #FFFFFF;
+    padding: 75px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* icon wrapper */
+.icon-wrapper,
+.icon-wrapper-pseudo  {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    background-color:#325DFF;
+    margin: 0 auto;
+}
+
+.icon,
+.icon-wrapper-pseudo::before {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-wrapper-pseudo::before{
+    content: url("../image/gift.svg");
+}
+
+.manu-text {
+    text-align: center;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.manu-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolderd;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.coffeicon {
+    font-size: 35px;
+    color:#FFFFFF;
+}
